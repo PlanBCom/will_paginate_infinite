@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'version'
 Gem::Specification.new do |s|
   s.name        = 'will_paginate_infinite'
-  s.version     = '0.0.1'
+  s.version     = '0.1.0'
   s.date        = '2016-07-15'
   s.summary     = "Will Paginate with infinite scroll"
   s.description = "Will Paginate with infinite scroll"

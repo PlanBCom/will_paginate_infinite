@@ -74,3 +74,6 @@ or
 # app/views/news/index.js.erb
 <%= infinite_append ".list-news ul", { partial: "news/news", collection: @news }  %>
 ```
+
+## Example
+Example using will_paginate_infinite with Rails 4: https://github.com/Godoy/will_paginate_infinite_example

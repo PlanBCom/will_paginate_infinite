@@ -1,4 +1,9 @@
-# Instalation
+# will_paginate_infinite
+[![gem version](https://img.shields.io/gem/v/will_paginate_infinite.svg)](http://rubygems.org/gems/will_paginate_infinite)
+
+Will Paginate with infinite scroll for Rails
+
+## Instalation
 
 Include the gem in your Gemfile:
 ```
@@ -21,7 +26,7 @@ And javascript to `app/assets/javascripts/application.js`:
 ```
 
 
-# Configuration
+## Configuration
 In your index view pagination :
 ```
 # app/views/news/index.html.erb

@@ -8,7 +8,7 @@ module InfiniteHelper
     if collection.next_page
       html += "$('.infinite-pagination').replaceWith('" + j(will_paginate(collection, renderer: WillPaginateInfinite::InfinitePagination)) + "');"
     else
-      html += "$(window).off('scroll');"
+      html += "$(window).off('scroll', infinitePaginationFunction);"
       html += "$('.infinite-pagination').remove();"
     end
 
